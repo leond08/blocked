@@ -1,1 +1,28 @@
-{"sites":[{"category":"fakenews","url":"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts","status":false},{"category":"porn","url":"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts","status":false},{"category":"social","url":"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts","status":false},{"category":"gambling","url":"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts","status":false},{"category":"adware","url":"https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt","status":false},{"category":"domains","url":"https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt","status":false}]}
+{
+    "sites": [
+      {
+        "category": "porn",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
+        "status": false,
+        "location": "/etc/pikonek/blocked/porn"
+      },
+      {
+        "category": "social",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
+        "status": false,
+        "location": "/etc/pikonek/blocked/social"
+      },
+      {
+        "category": "adware",
+        "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
+        "status": false,
+        "location": "/etc/pikonek/blocked/adware"
+      },
+      {
+        "category": "domains",
+        "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt",
+        "status": false,
+        "location": "/etc/pikonek/blocked/domains"
+      }
+    ]
+  }
